@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="color-scheme" content="light dark" />
+  <meta name="description" content="Lumina — the desk lamp that follows your day. Warms at sunset, cools at sunrise, and never asks to be configured." />
+  <title>Lumina — Light that thinks.</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='42' fill='%23f5a623'/></svg>" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="nav" id="top">
+    <nav class="nav-inner" aria-label="Main">
+      <a class="brand" href="#top"><span class="brand-dot" aria-hidden="true"></span>Lumina</a>
+      <div class="nav-links">
+        <a href="#features">Features</a>
+        <a href="#reviews">Reviews</a>
+      </div>
+      <a class="button small" href="#buy">Buy</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <p class="eyebrow" data-reveal>Introducing Lumina&nbsp;2</p>
+      <h1 class="display" data-reveal>Light that thinks.</h1>
+      <p class="sub" data-reveal>
+        Lumina reads the room — easing its warmth, color, and brightness through
+        your day on its own. No switches. No apps. Just light that gets you.
+      </p>
+      <div class="cta" data-reveal>
+        <a class="button primary" href="#buy">Buy — $149</a>
+        <a class="link" href="#features">See how it works <span aria-hidden="true">↓</span></a>
+      </div>
+
+      <div class="scene" data-reveal aria-hidden="true">
+        <div class="halo"></div>
+        <div class="orb"></div>
+        <div class="scene-shadow"></div>
+      </div>
+
+      <div class="controls" data-reveal>
+        <label class="slider-label" for="brightness">Brightness</label>
+        <input id="brightness" class="slider" type="range" min="0" max="100" value="65" />
+        <div class="swatches" role="group" aria-label="Color mood">
+          <button class="swatch" type="button" data-hue="210" style="--sw-hue:210" aria-label="Ocean blue" aria-pressed="false"></button>
+          <button class="swatch is-active" type="button" data-hue="38" style="--sw-hue:38" aria-label="Warm amber" aria-pressed="true"></button>
+          <button class="swatch" type="button" data-hue="285" style="--sw-hue:285" aria-label="Soft violet" aria-pressed="false"></button>
+        </div>
+      </div>
+      <p class="hint" data-reveal>Try the light — drag the dial, pick a mood.</p>
+    </section>
+
+    <section id="features" class="features">
+      <h2 data-reveal>Designed to disappear.</h2>
+      <p class="section-sub" data-reveal>
+        The best light is the kind you never think about. Lumina handles itself,
+        so you can handle everything else.
+      </p>
+      <div class="grid">
+        <article class="card" data-reveal>
+          <div class="card-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M19.1 4.9L17 7M7 17l-2.1 2.1"/></svg>
+          </div>
+          <h3>Circadian Auto</h3>
+          <p>Warms to candlelight as the sun sets and cools to daylight before you wake. Set your schedule once — never touch it again.</p>
+        </article>
+        <article class="card" data-reveal>
+          <div class="card-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="9" cy="12" r="2.5"/><path d="M15 8a6.5 6.5 0 0 1 0 8M18.5 5.5a10.5 10.5 0 0 1 0 13"/></svg>
+          </div>
+          <h3>Presence dimming</h3>
+          <p>A quiet sensor eases the room down when you leave and brings it back when you return. Light only where you are.</p>
+        </article>
+        <article class="card" data-reveal>
+          <div class="card-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2 4 14h6l-1 8 9-12h-6l1-8z"/></svg>
+          </div>
+          <h3>App-free setup</h3>
+          <p>Plug it in and Lumina pairs itself in under a second. No hub, no account, no twelve-step wizard.</p>
+        </article>
+        <article class="card" data-reveal>
+          <div class="card-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="6" cy="6" r="2.5"/><circle cx="18" cy="6" r="2.5"/><circle cx="12" cy="18" r="2.5"/><path d="M8 7.5l3 8M16 7.5l-3 8M8.5 6h7"/></svg>
+          </div>
+          <h3>Plays well with others</h3>
+          <p>Matter and Thread built in, so Lumina joins whatever smart home you already have — or none at all.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="reviews" class="quote">
+      <blockquote data-reveal>“The first piece of smart-home tech that feels dumb-simple.”</blockquote>
+      <cite data-reveal>— The Morning Circuit</cite>
+    </section>
+
+    <section id="buy" class="buy">
+      <h2 data-reveal>Bring one home.</h2>
+      <p class="price" data-reveal>$149</p>
+      <p class="fine" data-reveal>
+        Free shipping. 30-night trial. Lumina is a fictional product,
+        so the trial is mostly imaginary too.
+      </p>
+      <button class="button primary" id="buy-btn" type="button" data-reveal>Buy Lumina</button>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="foot-brand">Lumina Labs</div>
+      <ul class="foot-links">
+        <li><a href="#top">Overview</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#buy">Buy</a></li>
+        <li><a href="#top">Support</a></li>
+      </ul>
+      <p class="fine">Lumina is a fictional product made as a front-end design demo. © 2026 Lumina Labs, Inc.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
